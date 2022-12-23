@@ -102,7 +102,6 @@ func openDB(cfg config) (*sql.DB, error) {
 	defer cancel()
 	// Use PingContext() to establish a new connection to the database, passing in the
 	// context we created above as a parameter. If the connection couldn't be
-	// established successfully within the 5 second deadline, then this will return an
 	// error.
 	err = db.PingContext(ctx)
 	if err != nil {

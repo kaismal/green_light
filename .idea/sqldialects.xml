@@ -2,5 +2,7 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/migrations/000001_create_movies_table.up.sql" dialect="Cockroach" />
+    <file url="file://$PROJECT_DIR$/migrations/000003_change_int_to_uuid.down.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/migrations/000003_change_int_to_uuid.up.sql" dialect="PostgreSQL" />
   </component>
 </project>
